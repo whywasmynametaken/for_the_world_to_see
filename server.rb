@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  redirect '/hello_world.txt'
 end
 get '/sinatra' do
   "Hey Sinatra!"
